@@ -1,0 +1,46 @@
+{
+  "projects":
+  [
+    {
+      "id": "1",
+      "categories": ["Editorial Design", "Branding", "Print Design", "Illustration", "Packaging"],
+      "title": "Maravilloso Peke",
+      "image": "./img/projects-details/PEKE.jpg",
+      "description": "Interactive Illustrated Early Literacy Book for preschool children, aiming to integrate reading and writing in one book through a well-designed editorial layout and children's illustrations that motivate them to learn. The book also encourages interaction, coloring, writing, and entertainment.",
+      "pdf": "./assets/PROYECTO GRAFICO DF.pdf"
+    },
+    {
+      "id": "2",
+      "categories": ["Editorial Design", "Branding","Print Design","Packaging"],
+      "title": "Lo mejor de los 50's",
+      "image": "./img/projects-details/ALBUM.jpg",
+      "description": "The Best of the 50s, A collectible album with 200 stickers showcasing the most significant events, characters, music, fashion, and aesthetics of the decade.",
+      "pdf": "null"
+    },
+    {
+      "id": "3",
+      "categories": ["Editorial Design", "Branding","Print Design","Illustration"],
+      "title": "Antoinin Artaud",
+      "image": "./img/projects-details/Antonin Artaud.jpg",
+      "description": "Illustrated book through graphic synthesis. Creating an exclusive compilation of 3 works in a luxury edition with excellent design, showcasing the best of Antonin Artaud, a brilliant poet, playwright, essayist, actor, and theater director.",
+      "pdf": "./assets/LIBRO IMPRENTA.pdf"
+    },
+    {
+      "id": "4",
+      "categories": ["Editorial Design", "Illustration"],
+      "title": "Coloring books",
+      "image": "./img/projects-details/Cuadernos para colorear.jpg",
+      "description": "A series of four (4) coloring books featuring Venezuelan themes such as birds, flowers, fruits, and animals. Aimed at preserving the culture and knowledge among children about the country.",
+      "pdf": "null"
+    },
+    {
+      "id": "5",
+      "categories": ["Editorial Design","Branding","Print Design"],
+      "title": "Preludio",
+      "image": "./img/projects-details/preludio.jpg",
+      "description": "Preludio, is an Art Magazine that refers to music, cinema, and culture.",
+      "pdf": "null"
+    }
+
+  ]
+}

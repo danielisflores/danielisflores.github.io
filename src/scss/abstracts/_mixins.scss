@@ -1,0 +1,53 @@
+
+
+/*MEDIA QUERIES*/
+
+$breakpoints:(
+    xxxs:22.5em,
+    //360px
+    xxs:26.25em,
+    //420px
+    xs:37em,
+    //576px,
+    sm:48em,
+    //768px,
+    md:62em,
+    //992px
+    md-large:68.75em,
+    //1100px
+    lg:75em,
+    //1200px
+    xl:90em,
+    //1440px
+    xxl:100em
+    //1600px
+);
+
+@mixin respond-below($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint ){
+        $breakpoint-value:map-get(
+            $breakpoints,
+            $breakpoint
+        );
+        @media (max-width:($breakpoint-value - 1)){
+            @content;
+        }
+    }@else {
+        @warn "Invalid breakpoint: #{breakpoint}.";
+    }
+}
+
+@mixin respond-above($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint ){
+        $breakpoint-value:map-get(
+            $breakpoints,
+            $breakpoint
+        );
+        @media (min-width:($breakpoint-value - 1)){
+            @content;
+        }
+    }@else {
+        @warn "Invalid breakpoint: #{breakpoint}.";
+    }
+}
+

@@ -1,0 +1,113 @@
+/*MARGINS*/
+.mt {
+    &--sm {
+        margin-top: 1rem;
+    }
+    &--md {
+        margin-top: 3rem;
+    }
+    &--lg {
+        margin-top: 5rem;
+    }
+    &--xl {
+        margin-top: 8rem;
+    }
+    }
+.mb {
+    &--sm {
+        margin-bottom: 1rem;
+    }
+    &--md {
+        margin-bottom: 3rem;
+    }
+    &--lg {
+        margin-bottom: 5rem;
+    }
+    &--xl {
+    margin-bottom: 8rem;
+    }
+}
+.ml {
+    &--sm {
+        margin-left: 1rem;
+    }
+    &--md {
+        margin-left: 3rem;
+    }
+    &--lg {
+        margin-left: 5rem;
+    }
+    &--lg {
+        margin-left: 8rem;
+    }
+}
+.mr {
+    &--sm {
+        margin-right: 1rem;
+    }
+    &--md {
+        margin-right: 3rem;
+    }
+    &--lg {
+        margin-right: 5rem;
+    }
+    &--hudge {
+        margin-right: 8rem;
+    }
+}
+/*FONT-WEIGHT*/
+.fw {
+    &--thin {
+        font-weight: 100;
+    }
+    &--light {
+        font-weight: 300;
+    }
+    &--normal {
+        font-weight: 400;
+    }
+    &--med {
+        font-weight: 500;
+    }
+    &--semibold {
+        font-weight: 600;
+    }
+    &--bold {
+        font-weight: 700;
+    }
+}
+/*TEXT-ALIGN*/
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+/*COLOR*/
+.fcolor {
+    &--principal {
+        color: $principal-color;
+    }
+    &--secondary {
+        color: $secondary-color;
+    }
+    &--text{
+        color: $text-color;
+    }
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}

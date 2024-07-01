@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Danielis</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body >
+    <nav class="navbar size">
+        <div class="navbar__container--logo">
+            <div class="navbar__menu--toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <img class="navbar__logo" src="./img/Logo_DF.png" alt="Logo_DF">
+            <h4>Danielis Flores</h4>
+        </div>
+        <div class="navbar__container--links">
+            <div class="navbar__links">
+                <a href="index.html">Home</a>
+                <a href="./assets/CURRICULUM VITAE 2024-E.pdf" download="CURRICULUM VITAE 2024-E.pdf" > Resume</a>
+                <a href="index.html#projects">Projects</a>
+            </div>
+            <div class="navbar__social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </nav>
+        <main class="project__detail">
+            <div class="sidebar">
+                <h1 class="sidebar__title" id="project-title"></h1>
+                        <ul class="sidebar__categories" id="project-categories">
+                        </ul>
+                        <!-- <a  id="project-pdf">
+                            <img src="./img/svg/full-project.svg" alt="resume-spinner" class="projects__svg">
+                        </a>                        -->
+                <div class="sidebar__description" id="project-description">
+                </div>
+                <div class="sidebar__logo">
+                    <img class="navbar__logo" id="project-image" src="./img/logo-gris.png" alt="Logo-Danielis">
+                    <p>Danielis Flores</p>
+
+                </div>
+                <button class="sidebar__button">
+                <a href="index.html#projects" class="sidebar__button--link">
+                        <span class="arrow-left">&#8592;</span>Back
+                    </a>
+                </button>
+            </div>
+            <div class="project__detail--image">
+                <img id="project-image-detail"  alt="Project banner">
+            </div>
+            
+
+        </main>
+    
+
+
+        </body>
+        <script >
+    document.addEventListener('DOMContentLoaded', () => {
+
+        function getProjectIdFromURL (){
+            const params = new URLSearchParams(window.location.search)
+            return params.get('id')
+            }
+
+        const id = getProjectIdFromURL()
+
+        const dataURL = `data/projects.json`;
+
+
+        async function loadProjectDetails(){
+            try{
+                const response = await fetch(dataURL)
+
+                if(!response.ok){
+                    throw new Error ('Error al cargar el json')
+                }
+                const data = await response.json()
+                const project = data.projects.find(p => p.id === id)
+                if(project){
+                    document.getElementById('project-title').textContent = project.title
+                    document.getElementById('project-description').textContent = project.description
+                    document.getElementById('project-image-detail').setAttribute('src',project.image)
+                    const projectCategories = document.getElementById('project-categories')
+                    projectCategories.innerHTML = '';
+                    project.categories.forEach(category => {
+                        const li = document.createElement('li')
+                        li.className = 'flex-row';
+                        li.innerHTML =`<span class="color__form"></span>${category}`
+                        projectCategories.appendChild(li)
+                    })
+                    // const pdfLink = document.getElementById('project-pdf')
+                    // pdfLink.setAttribute('href',project.pdf)
+                    // pdfLink.setAttribute('target','_blank')
+                }else {
+                throw new Error ('Proyecto no encontrado')
+                }
+            }catch (error){
+                console.error('Error', error.message)
+
+
+                }
+            }
+        loadProjectDetails()
+
+})
+        </script>
+    </html>

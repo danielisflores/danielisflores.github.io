@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    position: relative;
+}
+html{
+  font-size: 75%; //12px
+    box-sizing: border-box;
+    @include respond-above(md){
+    font-size: 87.5%; //14px
+    }
+    @include respond-above(lg){
+    font-size: 87.5%; // 16px
+    }
+}
+body{
+    transition: .5s all;
+}
+img{
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
