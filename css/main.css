@@ -283,7 +283,7 @@ body {
           flex-direction: column;
   width: 100%;
   background-size: cover;
-  background: url("/Portafolio-DF/src/img/DF_Header.png") no-repeat top right;
+  background: url("/img/DF_Header.png") no-repeat top right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
