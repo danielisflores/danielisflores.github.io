@@ -8,12 +8,16 @@
   width: 26%;
   height: calc(100vh - 4rem );
   position: fixed;
-  padding: 4rem 2rem;
+  padding: 2rem;
   top: 4rem;
   left: 0;
   overflow-y: hidden;
   gap: 1rem;
 
+    &__title{
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    }
 
   &__categories{
     display: flex;
@@ -21,6 +25,7 @@
     gap: 1rem;
     align-items: flex-start;
     justify-content: flex-start;
+    font-size: 1.25rem;
 
     h3{
       font-weight: 300;
@@ -30,23 +35,30 @@
 
   &__description{
 
-    p{
+    
       font-weight: 300;
       text-align: start;
-      line-height: 2.25rem;
-      font-size: 1.25rem;
-    }
+      letter-spacing: 2px;
+
+    
   }
 
-  &__logo{
+  &__container--logo{
     display: flex;
     align-items: center;
     justify-content: center;
     gap:2rem;
 
     p{
-      font-size: 1.25rem;
+      font-size: 0.75rem;
+      color: $secondary-color;
+      letter-spacing: 2px;
     }
+  }
+
+  &__logo{
+    width: 1.75rem;
+    height: 1.75rem;
   }
   &__button{
     background-color: $text-color;
@@ -86,25 +98,4 @@
   }
 }
 
-.projects__svg{
-  position: absolute;
-  top: 25%;
-  left: 65%;
-  transform: translate(-50%,-50%);
-  width: 28%;
-  animation: rotate 10s linear infinite;
 
-  @include respond-below(lg){
-    width: 50%;
-  }
-
-}
-
-@keyframes rotate{
-  from {
-    transform: translate(-50%,-50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%,-50%) rotate(360deg);
-  }
-}

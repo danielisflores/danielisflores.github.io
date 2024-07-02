@@ -60,15 +60,15 @@
     }
     
 
+    
+
   }
 
-  &__bubble{
-    background-color: $principal-color;
-    border-radius: 2rem;
-    padding: 0.25rem 3rem;
-    color: white;
-    width: full;
-    display: flex;
-    white-space: nowrap;
-  }
+  &__logo{
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+
 }
+}
+

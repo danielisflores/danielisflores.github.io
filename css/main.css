@@ -347,6 +347,7 @@ body {
 }
 .header__info--description {
   font-size: 1.75rem;
+  letter-spacing: 2px;
 }
 .header__pic {
   -webkit-box-flex: 1;
@@ -383,8 +384,9 @@ body {
   border-radius: 1.25rem;
   padding: 0.25rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: 20rem;
+  letter-spacing: 2px;
 }
 
 .color__form {
@@ -525,7 +527,7 @@ body {
   font-weight: 400;
 }
 .about__title {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .about__items {
   display: -webkit-box;
@@ -753,7 +755,7 @@ body {
   letter-spacing: 1.4rem;
 }
 .services__container--cards {
-  gap: 2rem;
+  gap: 4rem;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -875,7 +877,7 @@ body {
 }
 .projects--card {
   display: none;
-  width: 18rem;
+  width: 15rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 3rem;
@@ -1061,16 +1063,10 @@ body {
   font-size: 5rem;
   letter-spacing: 1rem;
 }
-.footer__bubble {
-  background-color: #c3006b;
-  border-radius: 2rem;
-  padding: 0.25rem 3rem;
-  color: white;
-  width: full;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  white-space: nowrap;
+.footer__logo {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
 }
 
 .sidebar {
@@ -1091,11 +1087,15 @@ body {
   width: 26%;
   height: calc(100vh - 4rem);
   position: fixed;
-  padding: 4rem 2rem;
+  padding: 2rem;
   top: 4rem;
   left: 0;
   overflow-y: hidden;
   gap: 1rem;
+}
+.sidebar__title {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
 }
 .sidebar__categories {
   display: -webkit-box;
@@ -1112,17 +1112,17 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  font-size: 1.25rem;
 }
 .sidebar__categories h3 {
   font-weight: 300;
 }
-.sidebar__description p {
+.sidebar__description {
   font-weight: 300;
   text-align: start;
-  line-height: 2.25rem;
-  font-size: 1.25rem;
+  letter-spacing: 2px;
 }
-.sidebar__logo {
+.sidebar__container--logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1134,8 +1134,14 @@ body {
           justify-content: center;
   gap: 2rem;
 }
-.sidebar__logo p {
-  font-size: 1.25rem;
+.sidebar__container--logo p {
+  font-size: 0.75rem;
+  color: #e3e3e3;
+  letter-spacing: 2px;
+}
+.sidebar__logo {
+  width: 1.75rem;
+  height: 1.75rem;
 }
 .sidebar__button {
   background-color: #000000;
@@ -1169,32 +1175,6 @@ body {
           justify-content: center;
 }
 
-.projects__svg {
-  position: absolute;
-  top: 25%;
-  left: 65%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 28%;
-  -webkit-animation: rotate 10s linear infinite;
-          animation: rotate 10s linear infinite;
-}
-@media (max-width: 74em) {
-  .projects__svg {
-    width: 50%;
-  }
-}
-
-@keyframes rotate {
-  from {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-            transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-            transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
 /*COMPONENTS*/
 .card {
   background-color: #dadada;
@@ -1216,7 +1196,7 @@ body {
   color: #c3006b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
+  width: 20rem;
   max-height: 20rem;
 }
 .card--text {
