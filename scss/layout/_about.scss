@@ -116,13 +116,14 @@
 .resume__svg{
   position: absolute;
   top: 85%;
-  left: 6%;
+  left: 14%;
   transform: translate(-50%,-50%);
-  width: 28%;
+  width: 50%;
   animation: rotate 10s linear infinite;
 
-  @include respond-below(lg){
-    width: 50%;
+  @include respond-above(lg){
+    width: 28%;
+    left: 6%;
   }
 
 }
@@ -160,9 +161,19 @@
 
     &--resp{
       display: grid; 
-      align-items: center;
       grid-template-columns: repeat(2,1fr);
-      gap: 18rem;
+      gap: 2rem;
+      align-items: center;
+
+
+
+
+      @include respond-above(md){
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+        gap: 18rem;
+
+      }
     }
     
     
@@ -184,14 +195,14 @@
   &__text{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 2rem;   
     justify-content: start;
     font-size: 1.25rem;
     padding-right: 4rem;
 
-    @include respond-below(md){
-      flex-direction: column-reverse;
+    @include respond-above(md){
+      flex-direction: column;
     }
 
     &--info{
@@ -199,7 +210,11 @@
       align-items: center;
       justify-content: space-between;
       flex-direction: column;
-      gap: 3rem;
+      gap: 1rem;
+
+      @include respond-above(sm){
+        gap: 3rem;
+      }
 
 
 
@@ -216,14 +231,25 @@
       
 
       h3{
-        font-size: 5rem;
+        font-size: 2.5rem;
         color: $principal-color;
+
+
+        @include respond-above(sm){
+          font-size: 5rem;
+
+        }
       }
 
       p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
         font-weight: 400;
+
+        @include respond-above(sm){
+          font-size: 1.5rem;
+
+        }
 
       }
     }

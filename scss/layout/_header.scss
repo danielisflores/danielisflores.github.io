@@ -2,18 +2,21 @@
 
     display: flex;
     width: 100%;
-    padding: 5rem 0 5rem 8rem;
+    padding: 2rem 0 2rem 2rem;
     height: auto;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 
-    @include respond-below(lg){
-        padding-bottom: 0;
+    @include respond-above(sm){
+        padding: 5rem 0 0 8rem;
+
     }
 
+    @include respond-above(lg){
+        padding-bottom: 5rem;
+    }
 
- 
 
     &__container{
         display: flex;
@@ -25,6 +28,8 @@
         padding-top: 4rem;
         background-size: 50%;
         padding-bottom: 56.25%;
+
+        
 
         @include respond-below(lg){
             background-position:  right;
@@ -53,8 +58,14 @@
         &--title{
             display: flex;
             flex-direction: column;
-            font-size: 10rem;
-            line-height: 10rem;
+            font-size: 7rem;
+            line-height: 7rem;
+
+            @include respond-above(sm){
+                font-size: 10rem;
+                line-height: 10rem;
+
+            }
 
         }
 
@@ -85,8 +96,14 @@
 
     }
     &--description{
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         letter-spacing: 2px;
+
+        @include respond-above(xs){
+            font-size: 1.75rem;
+            letter-spacing: 2px;
+
+        }
     }
 
     }
