@@ -26,4 +26,37 @@
 
   }
 
+
+}
+
+
+// VIGIL VIDEO
+.project__detail--content{
+  width: 74%;
+  margin-left: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  
+
+
+}
+.content__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.content__image,
+.content__video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
 }

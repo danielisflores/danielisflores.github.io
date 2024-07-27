@@ -40,7 +40,39 @@
       "image": "./img/projects-details/preludio.jpg",
       "description": "Preludio, is an Art Magazine that refers to music, cinema, and culture.",
       "pdf": "null"
+    },
+    {
+      "id": "6",
+      "categories": ["Social Media","Branding"],
+      "title": "Labweb",
+      "image": "./img/projects-details/Project-Labweb.jpg",
+      "description": "Visual identity for Labweb, a large full-stack team deeply immersed in web technologies. Ready to provide service with integrity and dedication, they bring ideas to their 'laboratory' to make them a reality, developing the future behind their screens.",
+      "pdf": "null"
+    },
+    {
+      "id": "7",
+      "categories": ["Branding"],
+      "title": "E Shaw S.A",
+      "image": "./img/projects-details/E.SHAW-2-projects-brand.jpg",
+      "description": "Visual identity for E Shaw S.A., a consulting company that provides services in compliance and certification of sustainability standards across dozens of countries, primarily in LATAM, USA, and Europe. They offer guidance on meeting environmental, ecological, social, legal, and best practice regulations, enabling clients to obtain specific visas or certifications and sell their products in European markets.",
+      "pdf": "null"
+    },
+    {
+      "id": "8",
+      "categories": ["Branding","Social Media","Editorial Design"],
+      "title": "Galaxy Gym",
+      "image": "./img/projects-details/project-Galaxy-gym.jpg",
+      "description": "Rebranding for Galaxy Gym, a gym that continually offers innovation. Galaxy Gym 4.5 is identified as the first gym with an entertainment center, and it all begins thanks to the creativity used by the team to create content, have variety, and have the right people with great gifts and abilities, who now present themselves as 'El elenco' with their new image.",
+      "pdf": "null"
+    },
+    {
+      "id": "9",
+      "categories": ["Branding","Print Design"],
+      "title": "Christian",
+      "image": "./img/projects-details/christian.jpg",
+      "description": "Visual identity, logo creation, stationery, and signage for Christian, a renowned professional makeup artist based in Colombia.",
+      "pdf": "null"
     }
-
+    
   ]
 }
