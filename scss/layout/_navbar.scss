@@ -5,6 +5,7 @@
     padding: 0.5rem 2rem;
     width: 100%;
     border-bottom: 1px solid #000;
+    background-color: white;
 
     @include respond-above(sm){
         padding: 0.5rem 8rem;
