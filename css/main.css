@@ -1429,6 +1429,11 @@ body {
   padding: 2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  height: 100%;
+}
+
+.content__video {
+  width: 95%;
 }
 
 .navbar--vigil {
