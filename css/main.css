@@ -179,6 +179,13 @@ body {
           flex-direction: column;
 }
 
+.link__nav {
+  text-decoration: none;
+}
+.link__nav:hover {
+  text-decoration: none;
+}
+
 /*LAYOUT*/
 .navbar {
   display: -webkit-box;

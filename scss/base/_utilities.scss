@@ -105,9 +105,18 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+
+
 }
 
 .flex-col{
     display: flex;
     flex-direction: column;
+}
+
+.link__nav{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
 }

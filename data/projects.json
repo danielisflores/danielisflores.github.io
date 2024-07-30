@@ -72,6 +72,14 @@
       "image": "./img/projects-details/christian.jpg",
       "description": "Visual identity, logo creation, stationery, and signage for Christian, a renowned professional makeup artist based in Colombia.",
       "pdf": "null"
+    },
+    {
+      "id": "10",
+      "categories": ["Social Media","Print Design"],
+      "title": "La vinícola MDZ ",
+      "image": "./img/projects-details/project-LV-MDZ.jpg",
+      "description": "Visual identity and social media content for La Vinícola Mendoza, a wine shop with over 1200 labels of mid-range and high-end wines. It has two locations in Argentina: Palermo, Buenos Aires, and recently in the city of Mendoza.",
+      "pdf": "null"
     }
     
   ]

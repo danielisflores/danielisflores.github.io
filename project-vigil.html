@@ -13,8 +13,10 @@
             <div class="navbar__menu--toggle">
                 <i class="fas fa-bars"></i>
             </div>
-            <img class="navbar__logo" src="./img/Logo_DF.png" alt="Logo_DF" loading="lazy">
-            <h4>Danielis Flores</h4>
+            <a href="index.html" class="flex-row link__nav">
+                <img class="navbar__logo" src="./img/Logo_DF.png" alt="Logo_DF" loading="lazy">
+                <h4>Danielis Flores</h4>
+            </a>
         </div>
         <div class="navbar__container--links">
             <div class="navbar__links">
@@ -24,7 +26,7 @@
             </div>
             <div class="navbar__social">
                 <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in" ></i></a>
                 <a href="#"><i class="fab fa-behance"></i></a>
             </div>
         </div>
@@ -50,7 +52,7 @@
         </div>
         <div class="project__detail--content">
             <section class="content__section">
-                <img id="image-1" src="img/projects-details/vigil/1-vigil.jpg" alt="Image 1" class="content__image" loading="lazy">
+                <img id="image-1" src="img/projects-details/vigil/1-vigil.jpg" alt="Image 1 Vigil" class="content__image" loading="lazy">
             </section>
             <section class="content__section">
                 <video id="video-1" class="content__video" loop autoplay muted>
@@ -59,7 +61,7 @@
                 </video>
             </section>
             <section class="content__section">
-                <img id="image-2" src="/img/projects-details/vigil/3-vigil.jpg" alt="Image 2" class="content__image" loading="lazy">
+                <img id="image-2" src="/img/projects-details/vigil/3-vigil.jpg" alt="Image 2 Vigil" class="content__image" loading="lazy">
             </section>
             <section class="content__section">
                 <video id="video-2" class="content__video" loop autoplay muted>
@@ -71,4 +73,14 @@
         </div>
     </main>
 </body>
+<script>
+    document.addEventListener('DOMCOntentLoaded', function(){
+        const menuToggle = document.querySelector('.navbar__menu--togle')
+        const navbarLinks = document.getElementById('navbarLinks')
+
+        menuToggle.addEventListener('click',function(){
+            navbarLinks.classList.toggle('show')
+        })
+    })
+</script>
 </html>
