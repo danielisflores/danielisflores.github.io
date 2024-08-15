@@ -1439,9 +1439,13 @@ body {
   height: 100%;
 }
 
-.content__video {
+.content__video--lvba {
   margin-left: -2px;
   width: 101%;
+}
+
+.content__video {
+  width: 95%;
 }
 
 .navbar--vigil {
