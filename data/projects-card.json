@@ -1,0 +1,150 @@
+[
+  {
+    "id": "2",
+    "category": ["editorial"],
+    "src": "./img/projects/ALBUM 50'S.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/AVANT.jpg",
+    "link":"project-avant.html"
+  },
+  {
+    "id": "",
+    "category": ["illustration", "media"],
+    "src": "./img/projects/CORRALON AUSTRAL.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/MALBEC RRSS.jpg"
+  },
+  {
+    "id": "1",
+    "category": ["editorial"],
+    "src": "./img/projects/PEKE.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/QUENTO (2).jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/QUENTO.jpg"
+  },
+  {
+    "id": "",
+    "category": ["design"],
+    "src": "./img/projects/VIGIL PAPELERIA.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/VIGIL RRSS.jpg"
+  },
+  {
+    "id": "10",
+    "category": ["media", "design"],
+    "src": "./img/projects/VINICOLA MDZ.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media", "design"],
+    "src": "./img/projects/VINICOLA.jpg",
+    "link":"project-lvba.html"
+  },
+  {
+    "id": "",
+    "category": ["media", "branding"],
+    "src": "./img/projects/CORRALON PATAGÓNICO.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/DELOVERY.jpg"
+  },
+  {
+    "id": "7",
+    "category": ["branding"],
+    "src": "./img/projects/E.SHAW.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media", "branding"],
+    "src": "./img/projects/FORTALEZA.jpg"
+  },
+  {
+    "id": "6",
+    "category": ["branding"],
+    "src": "./img/projects/LABWEB.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/VIGIL.jpg",
+    "link":"project-vigil.html"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/SIJUJU.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/PEPONA.jpg"
+  },
+  {
+    "id": "8",
+    "category": ["branding"],
+    "src": "./img/projects/GALAXY GYM.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/ENPHOQUE.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/DAVIS.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/D2.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/CORRALON_PATAGONICO.jpg"
+  },
+  {
+    "id": "9",
+    "category": ["branding"],
+    "src": "./img/projects/CHRISTIAN.jpg"
+  },
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/ARROBA CIENCIA.jpg"
+  },
+  {
+    "id": "4",
+    "category": ["editorial"],
+    "src": "./img/projects/CUADERNOS.jpg"
+  },
+  {
+    "id": "3",
+    "category": ["editorial"],
+    "src": "./img/projects/ANTONIN ARTAUD.jpg"
+  },
+  {
+    "id": "5",
+    "category": ["editorial"],
+    "src": "./img/projects/PRELUDIO.jpg"
+  }
+]
