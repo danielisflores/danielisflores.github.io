@@ -80,6 +80,30 @@
       "image": "./img/projects-details/project-LV-MDZ.jpg",
       "description": "Visual identity and social media content for La Vinícola Mendoza, a wine shop with over 1200 labels of mid-range and high-end wines. It has two locations in Argentina: Palermo, Buenos Aires, and recently in the city of Mendoza.",
       "pdf": "null"
+    },
+    {
+      "id": "11",
+      "categories": ["Branding"],
+      "title": "Arroba Ciencia",
+      "image": "./img/projects-details/arroba_ciencia.jpg",
+      "description": "Visual Identity for Arroba Ciencia, a scientific workshop dedicated to animation, where children learn about science through games and experiments using materials commonly found at home.We offer various experiments for multiple events such as workshops, birthdays, and more, all 100% interactive for the kids.",
+      "pdf": "null"
+    },
+    {
+      "id": "12",
+      "categories": ["Branding"],
+      "title": "Enphoque",
+      "image": "./img/projects-details/enphoque.jpg",
+      "description": "Visual Identity Design for Enphoque, a photography company that provides services and markets on social media. With a modern concept focused on precisely the approach, paradigm, and focus applied to the subject to achieve excellent photographic work.",
+      "pdf": "null"
+    },
+    {
+      "id": "13",
+      "categories": ["Branding"],
+      "title": "Tentación",
+      "image": "./img/projects-details/tentacion_project.jpg",
+      "description": "Visual Identity for Tentación, a lingerie brand that emphasizes high quality and design in its products, conveying elegance and sensuality.",
+      "pdf": "null"
     }
     
   ]

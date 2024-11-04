@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding:0rem;
   box-sizing: border-box;
   height: 100%;
 
@@ -21,24 +21,35 @@
 
 }
 
+.content__section--avant{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+
+}
+
 .content__image--avant{
-  width: full;
-  
+  width: 100%;
+  object-fit: cover;
+  display: block;  
+  margin-bottom: 0;
+  line-height: 0;
 
-  img{
-    width: auto;
-    object-fit: cover;
-  }
+
+
 }
 
-.content__video--lvba{
-  margin-left: -2px;
-  width: 101%;
-}
 
-.content__video{
+.content__video--avant{
 
-  width: 95%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: -2px;
 }
 
 

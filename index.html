@@ -322,15 +322,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     loadCardProjects()
 
-/*     const allProjects = document.querySelectorAll('.projects--card');
-
-    allProjects.forEach(project => {
-        project.addEventListener('click', () => {
-        const projectId = project.getAttribute('data-id')
-        window.location.href = `project-detail.html?id=${projectId}`
-    })
-}) */
-
 async function loadCardProjects (){
     try{
         const response = await fetch('data/projects-card.json')
@@ -348,6 +339,7 @@ async function loadCardProjects (){
         const nextButton = document.querySelector('.next--button')
         const cardsPerPage = 12
         let currentPage = 1
+        let filteredData = data;
 
         const renderProjects = (projectsToRender) => {
             projectsContainer.innerHTML=''
@@ -386,19 +378,22 @@ async function loadCardProjects (){
                 filter.classList.add('active')
                 const category = filter.getAttribute('data-category')
                 
-                const filteredProjects = category === 'all' ? data : data.filter(project => project.category.includes(category))
+                filteredData = category === 'all' 
+                    ? data 
+                    : data.filter(project => {
+                        return project.category.some(cat => cat.toLowerCase() === category.toLowerCase())
+                    });
                 currentPage = 1
-
-                renderProjects(filteredProjects)
+                renderProjects(filteredData)
             })
         })
         nextButton.addEventListener('click',() => {
             currentPage++
-            renderProjects(data)
+            renderProjects(filteredData)
         })
         prevButton.addEventListener('click',() => {
             currentPage--
-            renderProjects(data)
+            renderProjects(filteredData)
         })
 
         
