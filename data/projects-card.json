@@ -54,12 +54,6 @@
   },
   {
     "id": "",
-    "category": ["branding"],
-    "src": "./img/projects/FORTALEZA.jpg",
-    "link":"project-fortaleza.html"
-  },
-  {
-    "id": "",
     "category": ["media"],
     "src": "./img/projects/FORTALEZA-NEW.jpg",
     "link":"project-fortaleza.html"
@@ -164,5 +158,11 @@
     "id": "",
     "category": ["media"],
     "src": "./img/projects/CORRALON PATAGÓNICO.jpg"
+  }, 
+  {
+    "id": "",
+    "category": ["branding"],
+    "src": "./img/projects/FORTALEZA.jpg",
+    "link":"project-fortaleza.html"
   }
 ]
