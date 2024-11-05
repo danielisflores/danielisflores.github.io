@@ -22,34 +22,14 @@
     "src": "./img/projects/CORRALON AUSTRAL.jpg"
   },
   {
-    "id": "",
-    "category": ["media"],
-    "src": "./img/projects/MALBEC RRSS.jpg"
-  },
-  {
     "id": "1",
     "category": ["editorial"],
     "src": "./img/projects/PEKE.jpg"
   },
   {
-    "id": "1",
-    "category": ["branding"],
-    "src": "./img/projects/peke-branding.jpg"
-  },
-  {
     "id": "",
     "category": ["media"],
     "src": "./img/projects/QUENTO (2).jpg"
-  },
-  {
-    "id": "",
-    "category": ["design"],
-    "src": "./img/projects/VIGIL PAPELERIA.jpg"
-  },
-  {
-    "id": "",
-    "category": ["media"],
-    "src": "./img/projects/VIGIL RRSS.jpg"
   },
   {
     "id": "10",
@@ -111,6 +91,11 @@
     "src": "./img/projects/PEPONA.jpg"
   },
   {
+    "id": "1",
+    "category": ["branding"],
+    "src": "./img/projects/peke-branding.jpg"
+  },
+  {
     "id": "8",
     "category": ["branding"],
     "src": "./img/projects/GALAXY GYM.jpg"
@@ -136,6 +121,11 @@
     "src": "./img/projects/CORRALON_PATAGONICO.jpg"
   },
   {
+    "id": "",
+    "category": ["design"],
+    "src": "./img/projects/VIGIL PAPELERIA.jpg"
+  },
+  {
     "id": "9",
     "category": ["branding"],
     "src": "./img/projects/CHRISTIAN.jpg"
@@ -156,9 +146,19 @@
     "src": "./img/projects/ANTONIN ARTAUD.jpg"
   },
   {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/MALBEC RRSS.jpg"
+  },
+  {
     "id": "5",
     "category": ["editorial"],
     "src": "./img/projects/PRELUDIO.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/VIGIL RRSS.jpg"
   },
   {
     "id": "13",
