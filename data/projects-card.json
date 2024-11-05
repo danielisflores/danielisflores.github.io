@@ -12,7 +12,7 @@
   },
   {
     "id": "",
-    "category": ["branding","media"],
+    "category": ["branding"],
     "src": "./img/projects/VIGIL-WINE-BRAND.jpg",
     "link":"project-vigil-wine.html"
   },
@@ -32,14 +32,14 @@
     "src": "./img/projects/PEKE.jpg"
   },
   {
-    "id": "",
-    "category": ["media"],
-    "src": "./img/projects/QUENTO (2).jpg"
+    "id": "1",
+    "category": ["branding"],
+    "src": "./img/projects/peke-branding.jpg"
   },
   {
     "id": "",
     "category": ["media"],
-    "src": "./img/projects/QUENTO.jpg"
+    "src": "./img/projects/QUENTO (2).jpg"
   },
   {
     "id": "",
@@ -79,7 +79,7 @@
   },
   {
     "id": "",
-    "category": ["media", "branding"],
+    "category": ["branding"],
     "src": "./img/projects/FORTALEZA.jpg",
     "link":"project-fortaleza.html"
   },
