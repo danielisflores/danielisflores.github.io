@@ -44,11 +44,6 @@
   },
   {
     "id": "",
-    "category": ["media"],
-    "src": "./img/projects/CORRALON PATAGÓNICO.jpg"
-  },
-  {
-    "id": "",
     "category": ["branding"],
     "src": "./img/projects/DELOVERY.jpg"
   },
@@ -164,5 +159,10 @@
     "id": "13",
     "category": ["branding"],
     "src": "./img/projects/tentacion_card.jpg"
+  },
+  {
+    "id": "",
+    "category": ["media"],
+    "src": "./img/projects/CORRALON PATAGÓNICO.jpg"
   }
 ]
