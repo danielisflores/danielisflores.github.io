@@ -18,6 +18,18 @@
   },
   {
     "id": "",
+    "category": ["all","media"],
+    "src": "./img/projects/d2_rrss.jpg",
+    "link":"project-d2.html"
+  },
+  {
+    "id": "",
+    "category": ["all","branding"],
+    "src": "./img/projects/VIGIL.jpg",
+    "link":"project-vigil.html"
+  },
+  {
+    "id": "",
     "category": ["design"],
     "src": "./img/projects/vigil_wine_club_design.png",
     "link":"project-vigil-wine.html"
@@ -92,12 +104,6 @@
   {
     "id": "",
     "category": ["all","branding"],
-    "src": "./img/projects/VIGIL.jpg",
-    "link":"project-vigil.html"
-  },
-  {
-    "id": "",
-    "category": ["all","branding"],
     "src": "./img/projects/SIJUJU.jpg"
   },
   {
@@ -134,12 +140,6 @@
     "id": "16",
     "category": ["all","branding"],
     "src": "./img/projects/DAVIS.jpg"
-  },
-  {
-    "id": "",
-    "category": ["all","media"],
-    "src": "./img/projects/d2_rrss.jpg",
-    "link":"project-d2.html"
   },
   {
     "id": "",
