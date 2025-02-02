@@ -12,7 +12,7 @@
   },
   {
     "id": "",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/VIGIL-WINE-BRAND.jpg",
     "link":"project-vigil-wine.html"
   },
@@ -49,23 +49,23 @@
   },
   {
     "id": "",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/QUENTO (2).jpg"
   },
   {
     "id": "10",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/VINICOLA MDZ.jpg"
   },
   {
     "id": "",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/VINICOLA.jpg",
     "link":"project-lvba.html"
   },
   {
     "id": "14",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/DELOVERY.jpg"
   },
   {
@@ -75,29 +75,29 @@
   },
   {
     "id": "7",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/E.SHAW.jpg"
   },
   {
     "id": "",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/FORTALEZA-NEW.jpg",
     "link":"project-fortaleza.html"
   },
   {
     "id": "6",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/LABWEB.jpg"
   },
   {
     "id": "",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/VIGIL.jpg",
     "link":"project-vigil.html"
   },
   {
     "id": "",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/SIJUJU.jpg"
   },
   {
@@ -112,7 +112,7 @@
   },
   {
     "id": "17",
-    "category": ["illustration"],
+    "category": ["all","illustration"],
     "src": "./img/projects/pepona_illustration.jpg"
   },
   {
@@ -122,28 +122,28 @@
   },
   {
     "id": "8",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/GALAXY GYM.jpg"
   },
   {
     "id": "12",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/ENPHOQUE.jpg"
   },
   {
     "id": "16",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/DAVIS.jpg"
   },
   {
     "id": "",
-    "category": ["branding"],
+    "category": ["all","media"],
     "src": "./img/projects/d2_rrss.jpg",
     "link":"project-d2.html"
   },
   {
     "id": "",
-    "category": ["media"],
+    "category": ["branding"],
     "src": "./img/projects/D2.jpg",
     "link":"project-d2.html"
   },
@@ -171,12 +171,12 @@
   },
   {
     "id": "9",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/CHRISTIAN.jpg"
   },
   {
     "id": "11",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/ARROBA CIENCIA.jpg"
   },
   {
@@ -186,17 +186,17 @@
   },
   {
     "id": "4",
-    "category": ["editorial"],
+    "category": ["all","editorial"],
     "src": "./img/projects/CUADERNOS.jpg"
   },
   {
     "id": "3",
-    "category": ["editorial"],
+    "category": ["all","editorial"],
     "src": "./img/projects/ANTONIN ARTAUD.jpg"
   },
   {
     "id": "18",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/MALBEC RRSS.jpg"
   },
   {
@@ -206,7 +206,7 @@
   },
   {
     "id": "5",
-    "category": ["editorial"],
+    "category": ["all","editorial"],
     "src": "./img/projects/PRELUDIO.jpg"
   },
   {
@@ -216,12 +216,12 @@
   },
   {
     "id": "13",
-    "category": ["branding"],
+    "category": ["all","branding"],
     "src": "./img/projects/tentacion_card.jpg"
   },
   {
     "id": "15",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/CORRALON PATAGÓNICO.jpg"
   }, 
   {

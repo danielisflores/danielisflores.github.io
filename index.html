@@ -339,7 +339,9 @@ async function loadCardProjects (){
         const nextButton = document.querySelector('.next--button')
         const cardsPerPage = 12
         let currentPage = 1
-        let filteredData = data;
+        let filteredData = data.filter(project => 
+                project.category.includes('all')
+            )
 
         const renderProjects = (projectsToRender) => {
             projectsContainer.innerHTML=''
@@ -369,7 +371,7 @@ async function loadCardProjects (){
             prevButton.disabled = currentPage === 1;
             nextButton.disabled = currentPage === totalPages
         }
-        renderProjects(data)
+        renderProjects(filteredData)
 
         const filters = document.querySelectorAll('.filter')
         filters.forEach(filter => {
@@ -378,9 +380,7 @@ async function loadCardProjects (){
                 filter.classList.add('active')
                 const category = filter.getAttribute('data-category')
                 
-                filteredData = category === 'all' 
-                    ? data 
-                    : data.filter(project => {
+                filteredData = data.filter(project => {
                         return project.category.some(cat => cat.toLowerCase() === category.toLowerCase())
                     });
                 currentPage = 1
