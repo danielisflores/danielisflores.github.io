@@ -1,12 +1,12 @@
 [
   {
     "id": "2",
-    "category": ["editorial"],
+    "category": ["all","editorial"],
     "src": "./img/projects/ALBUM 50'S.jpg"
   },
   {
     "id": "",
-    "category": ["media"],
+    "category": ["all","media"],
     "src": "./img/projects/AVANT.jpg",
     "link":"project-avant.html"
   },
@@ -18,13 +18,34 @@
   },
   {
     "id": "",
-    "category": ["illustration", "media"],
+    "category": ["design"],
+    "src": "./img/projects/vigil_wine_club_design.png",
+    "link":"project-vigil-wine.html"
+  },
+  {
+    "id": "19",
+    "category": ["all","illustration"],
     "src": "./img/projects/CORRALON AUSTRAL.jpg"
   },
   {
+    "id": "19",
+    "category": ["media"],
+    "src": "./img/projects/corralon_austral_rrss.png"
+  },
+  {
+    "id": "19",
+    "category": ["design"],
+    "src": "./img/projects/corralon_austral_print.png"
+  },
+  {
     "id": "1",
-    "category": ["editorial"],
+    "category": ["all","editorial"],
     "src": "./img/projects/PEKE.jpg"
+  },
+  {
+    "id": "1",
+    "category": ["illustration"],
+    "src": "./img/projects/peke_illustration.png"
   },
   {
     "id": "",
@@ -33,19 +54,24 @@
   },
   {
     "id": "10",
-    "category": ["media", "design"],
+    "category": ["media"],
     "src": "./img/projects/VINICOLA MDZ.jpg"
   },
   {
     "id": "",
-    "category": ["media", "design"],
+    "category": ["media"],
     "src": "./img/projects/VINICOLA.jpg",
     "link":"project-lvba.html"
   },
   {
-    "id": "",
+    "id": "14",
     "category": ["branding"],
     "src": "./img/projects/DELOVERY.jpg"
+  },
+  {
+    "id": "14",
+    "category": ["design"],
+    "src": "./img/projects/delovery_design.jpg"
   },
   {
     "id": "7",
@@ -75,9 +101,19 @@
     "src": "./img/projects/SIJUJU.jpg"
   },
   {
-    "id": "",
+    "id": "17",
     "category": ["branding"],
     "src": "./img/projects/PEPONA.jpg"
+  },
+    {
+    "id": "17",
+    "category": ["design"],
+    "src": "./img/projects/pepona_design.jpg"
+  },
+  {
+    "id": "17",
+    "category": ["illustration"],
+    "src": "./img/projects/pepona_illustration.jpg"
   },
   {
     "id": "1",
@@ -95,19 +131,38 @@
     "src": "./img/projects/ENPHOQUE.jpg"
   },
   {
-    "id": "",
+    "id": "16",
     "category": ["branding"],
     "src": "./img/projects/DAVIS.jpg"
   },
   {
     "id": "",
     "category": ["branding"],
-    "src": "./img/projects/D2.jpg"
+    "src": "./img/projects/d2_rrss.jpg",
+    "link":"project-d2.html"
   },
   {
     "id": "",
+    "category": ["media"],
+    "src": "./img/projects/D2.jpg",
+    "link":"project-d2.html"
+  },
+  {
+    "id": "",
+    "category": ["illustration"],
+    "src": "./img/projects/d2_illustration.jpg",
+    "link":"project-d2.html"
+  },
+  {
+    "id": "15",
     "category": ["branding"],
     "src": "./img/projects/CORRALON_PATAGONICO.jpg"
+  },
+  {
+    "id": "15",
+    "category": ["design"],
+    "src": "./img/projects/corralon_patagonico_design.jpg"
+
   },
   {
     "id": "",
@@ -125,6 +180,11 @@
     "src": "./img/projects/ARROBA CIENCIA.jpg"
   },
   {
+    "id": "11",
+    "category": ["illustration"],
+    "src": "./img/projects/arroba_illustration.jpg"
+  },
+  {
     "id": "4",
     "category": ["editorial"],
     "src": "./img/projects/CUADERNOS.jpg"
@@ -135,9 +195,14 @@
     "src": "./img/projects/ANTONIN ARTAUD.jpg"
   },
   {
-    "id": "",
+    "id": "18",
     "category": ["media"],
     "src": "./img/projects/MALBEC RRSS.jpg"
+  },
+  {
+    "id": "18",
+    "category": ["design"],
+    "src": "./img/projects/malbec_design.jpg"
   },
   {
     "id": "5",
@@ -155,7 +220,7 @@
     "src": "./img/projects/tentacion_card.jpg"
   },
   {
-    "id": "",
+    "id": "15",
     "category": ["media"],
     "src": "./img/projects/CORRALON PATAGÓNICO.jpg"
   }, 

@@ -105,6 +105,57 @@
       "description": "Visual Identity for Tentación, a lingerie brand that emphasizes high quality and design in its products, conveying elegance and sensuality.",
       "pdf": "null"
     }
+    ,
+    {
+      "id": "14",
+      "categories": ["Branding","Social Media","Print Design"],
+      "title": "Delovery",
+      "image": "./img/projects-details/Delovery.jpg",
+      "description": "Visual Identity, brand creation, and naming for a gifting company called 'Delovery,' based in Caracas, Venezuela. Delovery specializes in personalized gifts and thoughtful details, delivering each one within the city with a touch of love and surprise. The name 'Delovery' reflects the heartfelt delivery of these special moments.",
+      "pdf": "null"
+    }
+    ,
+    {
+      "id": "15",
+      "categories": ["Branding","Social Media","Print Design"],
+      "title": "Corralón Patagónico",
+      "image": "./img/projects-details/corralon_patagonico.jpg",
+      "description": "Rebranding and visual identity design for a construction materials supplier located in downtown San Martín de Los Andes, Argentina. Created social media designs to aesthetically and effectively communicate their key products, suppliers, and services. Additionally, developed offline and print materials tailored to various formats.",
+      "pdf": "null"
+    },
+    {
+      "id": "16",
+      "categories": ["Branding"],
+      "title": "Davis Rivas Film",
+      "image": "./img/projects-details/davis_rivas_film.jpg",
+      "description": "Logo design (imagotype) and visual identity for a content creator specializing in video filming and editing.",
+      "pdf": "null"
+    },
+    {
+      "id": "17",
+      "categories": ["Branding","Print Design","Illustration"],
+      "title": "Pepona Fit",
+      "image": "./img/projects-details/pepona.jpg",
+      "description": "Visual identity, print design, and packaging design for Pepona Fit, an online store specializing in protein bars and alfajores.",
+      "pdf": "null"
+    }
+    ,
+    {
+      "id": "18",
+      "categories": ["Branding","Print Design","Social Media"],
+      "title": "Malbec Wine Shop",
+      "image": "./img/projects-details/malbec_wine_shop.jpg",
+      "description": "Visual identity and social media content for Malbec Wine Shop, a wine shop with over 1200 mid-range and high-end wine labels, located in the City of Mendoza, Argentina. Additionally, they host weekly wine tastings and occasional special events featuring renowned sommeliers and winemakers, for which print designs such as banners, flyers, vouchers, and other graphic materials are created.",
+      "pdf": "null"
+    },
+    {
+      "id": "19",
+      "categories": ["Illustration","Print Design","Social Media"],
+      "title": "Corralón Austral",
+      "image": "./img/projects-details/corralon_austral.jpg",
+      "description": "Primarily focused on social media design, this project also included illustration and the creation of a corporate mascot. Additionally, it involved offline design for stationery and print materials across various formats. The work was developed for a leading construction materials and home products supplier with the largest stock in the area, located in San Martín de Los Andes, Argentina.",
+      "pdf": "null"
+    }
     
   ]
 }
