@@ -62,7 +62,8 @@
   {
     "id": "",
     "category": ["all","media"],
-    "src": "./img/projects/QUENTO (2).jpg"
+    "src": "./img/projects/QUENTO (2).jpg",
+    "link":"project-quento.html"
   },
   {
     "id": "10",
@@ -102,9 +103,19 @@
     "src": "./img/projects/LABWEB.jpg"
   },
   {
-    "id": "",
+    "id": "20",
     "category": ["all","branding"],
     "src": "./img/projects/SIJUJU.jpg"
+  },
+  {
+    "id": "20",
+    "category": ["design"],
+    "src": "./img/projects/sijuju-design.jpg"
+  },
+  {
+    "id": "20",
+    "category": ["media"],
+    "src": "./img/projects/sijuju-media.jpg"
   },
   {
     "id": "17",

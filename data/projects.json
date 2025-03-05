@@ -155,6 +155,14 @@
       "image": "./img/projects-details/corralon_austral.jpg",
       "description": "Primarily focused on social media design, this project also included illustration and the creation of a corporate mascot. Additionally, it involved offline design for stationery and print materials across various formats. The work was developed for a leading construction materials and home products supplier with the largest stock in the area, located in San Martín de Los Andes, Argentina.",
       "pdf": "null"
+    },
+    {
+      "id": "20",
+      "categories": ["Branding","Print Design","Social Media"],
+      "title": "Sijuju Coffee",
+      "image": "./img/projects-details/project-sijuju.jpg",
+      "description": "Branding and visual identity for Sijuju Coffee, a café located in Buenos Aires, Argentina, known for its wide variety of gluten-free products. The project included complete branding from scratch, social media activation and design, as well as the ongoing creation of offline materials to enhance the in-store experience, such as signage, wayfinding, table tents, and both physical and digital menus, among others.",
+      "pdf": "null"
     }
     
   ]
