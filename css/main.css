@@ -300,7 +300,7 @@ body {
           flex-direction: column;
   width: 100%;
   background-size: cover;
-  background:url("https://danielisflores.github.io/portfolioDF/img/DF_Header2.png") no-repeat top right;
+  background: url("/img/DF_Header2.png") no-repeat top right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
